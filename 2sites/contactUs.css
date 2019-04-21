@@ -1,0 +1,7 @@
+.form{
+    display:inline-block;
+}
+aside{
+    float:right; 
+    padding-right:100px;
+}
