@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Audio & Video</title>
+</head>
+<body>
+    <h1>Short space quiz</h1>
+    <p>After you select your answer, click the finish button to finish the quiz</p>
+    <h2>By listening to the audio track, can you guess who is the person speaking</h2>
+    <form>
+        <ol>
+            <li>
+                <audio src="./files/Question 2.mp3" controls></audio>
+            </li>
+            <ol type="A">
+                <li>
+                    <input type="radio"> Dart Vader
+                </li>
+                <li>
+                    <input type="radio"> Terminator
+                </li>
+                <li>
+                    <input type="radio"> Stephen Hawking
+                </li>
+                <li>
+                    <input type="radio"> Michio Kaku
+                </li>
+            </ol>
+            <li>
+                <audio src="./files/Question 3.mp3" controls></audio> 
+            </li>
+            <ol type="A">
+                    <li>
+                        <input type="radio"> Elon Musk
+                    </li>
+                    <li>
+                        <input type="radio"> Neil deGrass Tyson
+                    </li>
+                    <li>
+                        <input type="radio"> Mike Tyson
+                    </li>
+                    <li>
+                        <input type="radio"> Eddie Murphy
+                    </li>
+                </ol>
+        </ol>
+        <button type="submit" onclick="message()">Finish quiz</button>
+    </form>
+</body>
+        <script>
+        function message() {
+          alert("Good job!");
+        }
+        </script>
+</html>
