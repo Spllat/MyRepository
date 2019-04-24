@@ -1,0 +1,64 @@
+body{
+    max-width: 1920px;
+    background-color: rgba(15, 158, 202, 0.26);
+}
+
+/*navigation-bar*/
+div{
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    padding-right:200px;
+}
+header li a{
+    text-decoration: none;
+    font-size:25px;
+}
+.logo{
+    padding-right:500px;
+}
+/*end of navigation-bar*/
+
+/*page body*/
+section{
+    max-width:800px;
+    display: inline-block;
+}
+h1{
+    margin-left:100px;
+    font-size: 35px;
+}
+p {
+    display: block;
+    width:700px;
+    margin-left:100px;
+    margin-top:50px;
+    font-size: 16px;
+}
+.image{
+    display: block;
+    float:right;
+    width:800px;
+}
+#sol-IMG{  
+    margin-top: 125px;
+}
+ol{
+    counter-reset: LIST-ITEMS;
+    margin-left:100px;
+}
+section li{
+    display:inline;
+    padding-right: 70px;
+}
+section li:before
+{
+  content: counter( LIST-ITEMS ) ".";
+  counter-increment: LIST-ITEMS;
+}
+.planets{
+    max-width:1500px;
+    font-size: 20px;
+    padding-left: 200px;
+}

@@ -1,0 +1,41 @@
+body{
+    max-width: 1920px;
+    background-color: rgba(15, 158, 202, 0.26);
+}
+
+/*navigation-bar*/
+div{
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    padding-right:200px;
+}
+header li a{
+    text-decoration: none;
+    font-size:25px;
+}
+.logo{
+    padding-right:500px;
+}
+/*end of navigation-bar*/
+
+/*form*/
+form{
+    margin: 150px 0 0 150px;
+    font-size: 20px;
+    width:800px;
+    display: inline-block;
+}
+#clientName, #clientEmail , textarea , #dropdown, #btnSubmit, #radio {
+    background-color:rgba(15, 158, 202, 0.26);
+}
+td{
+    padding: 7px;
+}
+iframe{
+    float:right;
+}
+iframe{
+    margin:150px 150px 0 0;
+}

@@ -1,0 +1,41 @@
+body{
+    max-width: 1920px;
+    background-color: rgba(15, 158, 202, 0.26);
+}
+
+/*navigation-bar*/
+div{
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    padding-right:200px;
+}
+header li a{
+    text-decoration: none;
+    font-size:25px;
+}
+.logo{
+    padding-right:500px;
+}
+/*end of navigation-bar*/
+/*section*/
+section div img{
+    width:850px;
+    margin: 0 100px 0 150px;  
+}
+section div{
+    width:900px;
+}
+section .firstP{
+    display: block;
+    float: left;
+    width: 250px;
+    margin-left: 100px;
+}
+section .secondP{
+    display:block;
+    float:right;
+    width: 250px;
+    margin-right:100px;
+}

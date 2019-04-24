@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="contactUs.css">
+    <title>Contact Us</title>
+</head>
+<body>
+        <header>
+                <nav class="nav-bar">
+                    <div class="logo">
+                        <img src="./images/Logo.png" alt="logo">
+                    </div>
+                    <div class="navigation">
+                        <ul>
+                            <li>
+                                <a href="./index.html">News</a>
+                            </li>
+                            <li>
+                                <a href="./conactUs.html">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="./gallery.html">Gallery</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            <section>
+                    <form>
+                            <table>
+                                <tr>
+                                    <td><label for="clientName">Your name:</label></td>
+                                    <td><input type="text" name="Name" id="clientName" placeholder="Fill you name"></td>                           
+                                </tr>
+                                <tr height="10"></tr>
+                                <tr>
+                                    <td><label for="clientEmail">Email:</label></td>
+                                    <td><input type="email" name="Email" id="clientEmail" placeholder="example@domain.com"></td>
+                                </tr>
+                                <tr height="5"></tr>
+                                <tr>
+                                    <td>
+                                        <label for="dropdown">Favourite planet:</label>
+                                    </td>
+                                    <td>
+                                        <select name="dropdownList" id="dropdown">
+                                        <option value="mercury">Mercury</option>
+                                        <option value="venus">Venus</option>
+                                        <option value="earth">Earth</option>
+                                        <option value="mars">Mars</option>
+                                        <option value="jupiter">Jupiter</option>
+                                        <option value="saturn">Saturn</option>
+                                        <option value="uranus">Uranus</option>
+                                        <option value="neptune">Neptune</option>
+                                    </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label for="radio">Space travel</label>
+                                        <input type="radio" name="spaceTravel" id="radio" value ="yes">YES
+                                        <input type="radio" name="spaceTravel" id="radio" value ="no">NO
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><p>Your message:</p></td>
+                                    <td><textarea name="clientMessage" cols="25" rows="3"></textarea></td>
+                                </tr>
+                            </table>
+                            <br>
+                            <input type="submit" value="Submit Information" id="btnSubmit" onclick="message()">
+                        </form>    
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/libKVRa01L8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe>           
+            </section>
+            <script>
+                function message() {
+                  alert("We will write you soon!");
+                }
+                </script>
+</body>
+</html>

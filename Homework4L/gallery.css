@@ -1,0 +1,34 @@
+body{
+    max-width: 1920px;
+    background-color: rgba(15, 158, 202, 0.26);
+}
+
+/*navigation-bar*/
+div{
+    display: inline-block;
+}
+header li{
+    display: inline-block;
+    padding-right:200px;
+}
+header li a{
+    text-decoration: none;
+    font-size:25px;
+}
+.logo{
+    padding-right:500px;
+}
+/*end of navigation-bar*/
+
+/*table*/
+h1{
+    font-size: 30px;
+    margin-left:100px;
+}
+table img {
+    width: 500px;
+    padding-left:100px;
+}
+table tr .last-row{
+    padding-left:500px;
+}
